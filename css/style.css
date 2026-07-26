@@ -683,6 +683,147 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .context-stack { display: grid; gap: 19px; margin-top: 40px; }
 
 /* =========================================================
+   Nokia Micro Earbuds Pro
+   ========================================================= */
+
+.project--nokia {
+  background: #fff;
+  color: #666;
+}
+
+.project-hero--nokia {
+  aspect-ratio: 1200 / 800;
+  background: #eee;
+}
+
+.project-hero--nokia > img { object-position: center 42%; }
+
+.project-hero__copy--nokia {
+  color: #777;
+  top: 48px;
+}
+
+.project-hero__copy--nokia .project-hero__title {
+  font-size: clamp(30px, 4vw, 54px);
+  letter-spacing: .22em;
+}
+
+.project-hero__copy--nokia .project-hero__subtitle {
+  font-size: clamp(18px, 2vw, 28px);
+  line-height: 1.12;
+  letter-spacing: .18em;
+}
+
+.project-band--nokia {
+  background: #fff;
+  color: #999;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.nokia-section {
+  padding: 58px var(--panel-pad) 0;
+  background: #fff;
+}
+
+.nokia-section--grey { background: #f1f0ef; }
+
+.nokia-section--no-top { padding-top: 0; }
+
+.nokia-section .section-head__title {
+  color: #666;
+  font-size: clamp(28px, 3vw, 40px);
+}
+
+.nokia-section .section-head__sub {
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.nokia-copy {
+  padding: 44px 30px;
+  color: #aaa;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.nokia-copy p + p { margin-top: 18px; }
+
+.nokia-media {
+  display: block;
+  width: 100%;
+  margin-top: 46px;
+}
+
+.nokia-media--flush {
+  width: calc(100% + 2 * var(--panel-pad));
+  max-width: none;
+  margin-inline: calc(var(--panel-pad) * -1);
+}
+
+.nokia-media--contain {
+  height: auto;
+  object-fit: contain;
+}
+
+.nokia-pair {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 46px;
+}
+
+.nokia-pair img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.nokia-pair--tall img { aspect-ratio: 1 / 1.45; }
+
+.nokia-visual img {
+  display: block;
+  width: 100%;
+}
+
+.nokia-products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 60px var(--panel-pad);
+}
+
+.nokia-products img { display: block; width: 100%; }
+
+.nokia-head--after { padding: 52px 0 24px; }
+
+.nokia-media--splash {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.nokia-context { padding-bottom: 0; }
+
+.nokia-context__stack {
+  display: grid;
+  gap: 18px;
+  margin-top: 44px;
+  margin-inline: calc(var(--panel-pad) * -1);
+}
+
+.nokia-context__stack img {
+  display: block;
+  width: 100%;
+  max-height: 760px;
+  object-fit: cover;
+}
+
+/* =========================================================
    Responsive
    ========================================================= */
 
@@ -716,7 +857,9 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .media-row--3,
   .media-row--wide-narrow,
   .figure-row--problem,
-  .figure-row--concepts { grid-template-columns: 1fr; }
+  .figure-row--concepts,
+  .nokia-pair,
+  .nokia-products { grid-template-columns: 1fr; }
 
   .figure-row--problem { margin-inline: 0; }
 
@@ -729,6 +872,14 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .panel { padding: 44px var(--panel-pad); }
 
   .project-hero { aspect-ratio: 4 / 5; }
+
+  .project-hero--nokia { aspect-ratio: 4 / 5; }
+
+  .project-hero--nokia > img { object-position: 56% center; }
+
+  .project-hero__copy--nokia { top: 28px; }
+
+  .nokia-products { padding-inline: 0; }
 
   .project-hero__tools { gap: 16px; }
 

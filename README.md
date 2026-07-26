@@ -14,6 +14,7 @@ step: open `index.html` in a browser, or serve the folder
 | `sandbox-vr.html` | `mockups/1` | Project page, linked from the first home tile |
 | `nokia-earbuds.html` | `mockups/project 03` | Nokia Micro Earbuds Pro case study |
 | `nursery-pal-glow.html` | `mockups/project 04` | Hubble Nursery Pal Glow case study |
+| `mimo-app.html` | `mockups/project 05` | Mimo connected app ecosystem case study |
 
 The sticky header and the footer are repeated in each file — there is no
 templating, so a change to either needs to be made in all four.
@@ -28,7 +29,7 @@ expected aspect ratios are listed in `images/README.md`.
 
 ## Still to fill in
 
-- Tiles 5–6 on `index.html` and all six on `more.html` have no `href` yet.
+- Tile 6 on `index.html` and all six on `more.html` have no `href` yet.
   Search the HTML for `TODO`.
 - Client logos and the project hero's tool icons.
 

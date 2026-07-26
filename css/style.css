@@ -932,6 +932,115 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 /* =========================================================
+   Mimo app ecosystem
+   ========================================================= */
+
+.project--mimo {
+  background: #fff;
+  color: #646464;
+}
+
+.mimo-hero {
+  position: relative;
+  background: #fafafa;
+}
+
+.mimo-hero > img {
+  display: block;
+  width: 100%;
+}
+
+.mimo-hero__copy {
+  position: absolute;
+  z-index: 1;
+  top: 46px;
+  left: var(--panel-pad);
+  color: #777;
+}
+
+.mimo-hero__copy h1 {
+  font-size: clamp(30px, 4vw, 54px);
+  font-weight: 300;
+  letter-spacing: .2em;
+}
+
+.mimo-hero__copy p {
+  margin-top: 12px;
+  font-size: clamp(18px, 2vw, 27px);
+  font-weight: 700;
+  letter-spacing: .18em;
+}
+
+.project-band--mimo {
+  background: #fff;
+  color: #999;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.mimo-section {
+  background: #fff;
+  padding-top: 48px;
+}
+
+.mimo-section--soft { background: #f7f6f5; }
+
+.mimo-section--lavender { background: #f0f0fc; }
+
+.mimo-media {
+  display: block;
+  width: 100%;
+}
+
+.mimo-media--joined { margin-top: 0; }
+
+.mimo-text {
+  padding: 54px var(--panel-pad);
+  text-align: center;
+}
+
+.mimo-text h2,
+.mimo-question {
+  color: #606060;
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.mimo-text p {
+  margin-top: 25px;
+  color: #9a9a9a;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.mimo-text p + p { margin-top: 18px; }
+
+.mimo-text--body { padding-top: 34px; }
+
+.mimo-question {
+  padding: 62px 20px;
+  text-align: center;
+  font-size: clamp(24px, 2.65vw, 34px);
+}
+
+.mimo-caption {
+  padding: 28px 20px 75px;
+  color: #a0a0a0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.mimo-caption strong { color: #777; font-weight: 600; }
+
+.mimo-modes img {
+  display: block;
+  width: 100%;
+}
+
+/* =========================================================
    Responsive
    ========================================================= */
 
@@ -994,6 +1103,11 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .project-hero--hubble > img { object-position: 57% center; }
 
   .project-hero__copy--hubble { top: 28px; }
+
+  .mimo-hero__copy {
+    top: 28px;
+    left: 20px;
+  }
 
   .project-hero__tools { gap: 16px; }
 

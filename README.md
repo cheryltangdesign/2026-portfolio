@@ -17,6 +17,11 @@ step: open `index.html` in a browser, or serve the folder
 | `mimo-app.html` | `mockups/project 05` | Mimo connected app ecosystem case study |
 | `maskfone.html` | `mockups/project 06` | MaskFone wearable audio mask case study |
 | `netflix-house.html` | `mockups/more 01` | Netflix House V/RTUALS environment case study |
+| `motorola-headphones.html` | `mockups/more 02` | Motorola adult and kids headphones |
+| `hubble-growth.html` | `mockups/more 03` | Hubble Growth baby scale |
+| `hubble-grip.html` | `mockups/more 04` | Hubble Star Grip camera mount |
+| `wall-theory.html` | `mockups/more 05` | Wall Theory privacy screens |
+| `urban-composition.html` | `mockups/more 06` | UCL Urban Composition exhibition graphics |
 
 The sticky header and the footer are repeated in each file — there is no
 templating, so a change to either needs to be made in all four.
@@ -31,7 +36,7 @@ expected aspect ratios are listed in `images/README.md`.
 
 ## Still to fill in
 
-- All six `index.html` project tiles and the first `more.html` tile are linked.
+- All project tiles on `index.html` and `more.html` are linked.
   Search the HTML for `TODO`.
 - Client logos and the project hero's tool icons.
 

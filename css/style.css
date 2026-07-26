@@ -1247,6 +1247,103 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 /* =========================================================
+   More detail pages
+   ========================================================= */
+
+.detail-page {
+  background: #fff;
+  color: #666;
+}
+
+.detail-hero {
+  position: relative;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.detail-hero > img,
+.detail-media,
+.detail-stack > img,
+.detail-feature > img {
+  display: block;
+  width: 100%;
+}
+
+.detail-hero__copy {
+  position: absolute;
+  top: 44px;
+  left: 42px;
+  color: #777;
+}
+
+.detail-hero__copy--dark { color: #333; }
+
+.detail-hero__copy h1,
+.urban-title h1 {
+  font-size: clamp(30px, 4.2vw, 54px);
+  font-weight: 300;
+  letter-spacing: .2em;
+}
+
+.detail-hero__copy p,
+.urban-title p {
+  margin-top: 16px;
+  font-size: clamp(18px, 2.2vw, 28px);
+  font-weight: 700;
+  letter-spacing: .16em;
+}
+
+.detail-copy {
+  padding: 52px 30px;
+  color: #929292;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.detail-copy strong { color: #666; font-weight: 600; }
+
+.detail-media--joined { margin-top: 0; }
+
+.detail-block--grey { background: #f6f5f4; }
+
+.detail-heading {
+  padding: 56px 30px 44px;
+  text-align: center;
+}
+
+.detail-heading h2 {
+  color: #606060;
+  font-size: clamp(29px, 3.4vw, 43px);
+  font-weight: 400;
+}
+
+.detail-heading p {
+  margin-top: 22px;
+  color: #999;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.detail-stack {
+  display: grid;
+  gap: 16px;
+}
+
+.detail-feature { background: #f5f4f3; }
+
+.detail-section { padding-top: 46px; }
+
+.urban-title {
+  padding: 48px 42px 40px;
+  color: #777;
+}
+
+.urban-page { background: #faf9f7; }
+
+/* =========================================================
    Responsive
    ========================================================= */
 
@@ -1344,6 +1441,13 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .netflix-equipment { padding-inline: 8px; }
 
   .netflix-context__pair { grid-template-columns: 1fr; }
+
+  .detail-hero__copy {
+    top: 24px;
+    left: 20px;
+  }
+
+  .urban-title { padding: 30px 20px; }
 
   .project-hero__tools { gap: 16px; }
 

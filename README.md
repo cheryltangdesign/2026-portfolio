@@ -16,6 +16,7 @@ step: open `index.html` in a browser, or serve the folder
 | `nursery-pal-glow.html` | `mockups/project 04` | Hubble Nursery Pal Glow case study |
 | `mimo-app.html` | `mockups/project 05` | Mimo connected app ecosystem case study |
 | `maskfone.html` | `mockups/project 06` | MaskFone wearable audio mask case study |
+| `netflix-house.html` | `mockups/more 01` | Netflix House V/RTUALS environment case study |
 
 The sticky header and the footer are repeated in each file — there is no
 templating, so a change to either needs to be made in all four.
@@ -30,7 +31,7 @@ expected aspect ratios are listed in `images/README.md`.
 
 ## Still to fill in
 
-- All six `index.html` project tiles are linked. The six `more.html` tiles still have no `href`.
+- All six `index.html` project tiles and the first `more.html` tile are linked.
   Search the HTML for `TODO`.
 - Client logos and the project hero's tool icons.
 

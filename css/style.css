@@ -536,7 +536,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .panel--dark .section-head__sub { color: var(--on-dark-soft); }
 
 .section-copy {
-  max-width: 1010px;
+  max-width: 1064px;
   margin: 22px auto 0;
   text-align: center;
   font-size: 18px;
@@ -564,7 +564,9 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   gap: 40px;
 }
 
-.media-row--2 .ph { aspect-ratio: 4 / 5; }
+.media-row--3 { grid-template-columns: repeat(3, 1fr); }
+
+.media-row--gap-sm { gap: 20px; }
 
 /* The sketch sheet is much wider than the model shelf beside it, and the
    pair shares one height — so the ratio lives on the row. */
@@ -581,13 +583,73 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .media--2x1 { aspect-ratio: 2 / 1; }
 
+.media--16x9 { aspect-ratio: 16 / 9; }
+
 .media--4x3 { aspect-ratio: 4 / 3; }
 
 .media--3x2 { aspect-ratio: 3 / 2; }
 
+.media--1x1 { aspect-ratio: 1 / 1; }
+
+.media--4x5 { aspect-ratio: 4 / 5; }
+
+.media--3x4 { aspect-ratio: 3 / 4; }
+
 .media--collage {
   aspect-ratio: 1200 / 809;
   background: var(--dark-raised);
+}
+
+/* A white sheet holding one or more full-width graphics that must not be
+   cropped — the reference tables and technical diagrams. */
+.media-sheet {
+  background: #fff;
+  font-size: 0;
+}
+
+.media-sheet img,
+.media-sheet video { display: block; width: 100%; }
+
+/* Looping clips stand in for what would otherwise be very large GIFs. */
+.ph > video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media--diagram > video { object-fit: contain; }
+
+/* A section that sits directly on the page ground rather than a panel. */
+.panel--page { color: var(--ink); }
+
+.panel--page .section-head__title { color: var(--dark); }
+
+.panel--page .section-copy,
+.panel--page .section-head__sub { color: var(--ink-soft); }
+
+/* The Problem breakdown and the three strap concepts ship as artwork with
+   their own transparent ground, so they get no placeholder fill. */
+.figure-row {
+  display: grid;
+  align-items: start;
+  margin-top: 44px;
+}
+
+.figure-row img { display: block; width: 100%; }
+
+/* Sits marginally wider than the panel's own padding, as in the mockup. */
+.figure-row--problem {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-inline: -8px;
+}
+
+/* The card artwork carries its own margin, so the CSS gap is small — the
+   ~50px seen between photos in the mockup is mostly the images' own padding. */
+.figure-row--concepts {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
 }
 
 /* Feature cards */
@@ -651,7 +713,12 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
   .feature-grid,
   .media-row--2,
-  .media-row--wide-narrow { grid-template-columns: 1fr; }
+  .media-row--3,
+  .media-row--wide-narrow,
+  .figure-row--problem,
+  .figure-row--concepts { grid-template-columns: 1fr; }
+
+  .figure-row--problem { margin-inline: 0; }
 
   /* Stacked: each image goes back to carrying its own ratio. */
   .media-row--wide-narrow { aspect-ratio: auto; }

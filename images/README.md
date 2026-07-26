@@ -31,7 +31,7 @@ more/                                   more page grid, square           [done]
   isometric-illustration.jpg
 
 about/
-  portrait.jpg                          square
+  portrait.jpg                          square                           [done]
   logos/                                transparent PNG or SVG, ~3:1
     netflix.svg
     nokia.svg

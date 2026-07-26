@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sandbox VR — Limbs Tracker | Cheryl Tang</title>
+  <meta name="description" content="A modular wearable system for VR limb trackers that simplifies gear-up while delivering a secure fit and consistent tracking performance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" data-label="CT" aria-label="Cheryl Tang — home">
+        <img src="images/logo.png" alt="Cheryl Tang">
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a class="nav__link is-active" href="index.html" aria-current="page">Work</a>
+        <a class="nav__link" href="more.html">More</a>
+        <a class="nav__link" href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project">
+
+    <!-- Hero -->
+    <div class="ph project-hero">
+      <img src="images/limbs-tracker/hero.jpg" alt="Player wearing Sandbox VR limb trackers on both wrists">
+      <div class="project-hero__copy">
+        <h1 class="project-hero__title">SANDBOX VR</h1>
+        <p class="project-hero__subtitle">LIMBS TRACKER</p>
+      </div>
+      <div class="project-hero__tools" aria-label="Tools used">
+        <div class="ph"><img src="images/tools/solidworks.svg" alt="SolidWorks"></div>
+        <div class="ph"><img src="images/tools/keyshot.svg" alt="KeyShot"></div>
+        <div class="ph"><img src="images/tools/photoshop.svg" alt="Adobe Photoshop"></div>
+      </div>
+    </div>
+
+    <!-- One-line summary -->
+    <p class="project-band">A modular wearable system for VR limb trackers that simplifies gear-up while delivering a secure fit, stable tracker positioning, and consistent tracking performance throughout active gameplay.</p>
+
+    <!-- Problem -->
+    <section class="panel panel--page">
+      <div class="section-head">
+        <h2 class="section-head__title">Problem</h2>
+      </div>
+      <p class="section-copy">VR limb trackers can be difficult to use because they often require time for setup, may experience orientation errors that affect tracking accuracy, need proper fitting to stay secure and comfortable under high impact gameplay, and require regular cleaning to maintain hygiene and performance.</p>
+
+      <div class="figure-row figure-row--problem">
+        <img src="images/limbs-tracker/problem-a.png" alt="Time: long setup, adjustment, and removal times. Orientation: left/right and front/back confusion affects tracking accuracy.">
+        <img src="images/limbs-tracker/problem-b.png" alt="Size: must fit all wrist and hand breadth sizes from six-year-olds to adults, and all types of garment. Clean: sweat and dirt accumulate, hard to wipe, and cleaning degrades the material.">
+      </div>
+    </section>
+
+    <!-- Strap concepts -->
+    <section class="panel panel--dark">
+      <p class="section-copy">Various types of securing mechanisms were explored throughout the design process. Each concept was evaluated for ease of use, security, comfort, durability, and its ability to maintain consistent tracker positioning during active VR gameplay.</p>
+
+      <div class="figure-row figure-row--concepts">
+        <img src="images/limbs-tracker/concept-velcro.png" alt="Woven velcro straps: flexible and elastic, but absorb sweat and gradually lose fastening performance with prolonged use.">
+        <img src="images/limbs-tracker/concept-watch.png" alt="Watch straps: familiar for most users, but their limited one-size-fits-all length leaves a long excess strap for users with smaller wrists or ankles.">
+        <img src="images/limbs-tracker/concept-magnetic.png" alt="Magnetic silicone straps: secure and reliable fit, sweat and water resistant, and easy to clean.">
+      </div>
+    </section>
+
+    <!-- Sketch sheets -->
+    <div class="ph media--16x9">
+      <img src="images/limbs-tracker/sketches.jpg" alt="Concept sketch sheets exploring strap and tracker forms">
+    </div>
+
+    <!-- Modularity -->
+    <section class="panel panel--dark">
+      <div class="section-head">
+        <h2 class="section-head__title">Modularity</h2>
+        <p class="section-head__sub">
+          The same wrist/ankle straps accommodate both left- and right-side variants :<br>
+          Left wrist (L) &nbsp;/&nbsp; Left ankle (L) &nbsp;/&nbsp; Right wrist (R) &nbsp;/&nbsp; Right ankle (R)
+        </p>
+      </div>
+      <p class="section-copy">Single wrist and ankle strap designs are used throughout, mounting in opposite orientations, onto the same tracker base. This mirrored installation enables full left/right compatibility with single strap designs, which also minimises production and storage costs.</p>
+
+      <div class="ph media--diagram media--4x3 stack">
+        <video autoplay muted loop playsinline preload="metadata"
+               aria-label="Wrist and ankle straps mounting onto the same tracker base in mirrored orientations">
+          <source src="images/limbs-tracker/modularity.webm" type="video/webm">
+          <source src="images/limbs-tracker/modularity.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <!-- Adjustment -->
+    <section class="panel panel--dark">
+      <div class="section-head">
+        <h2 class="section-head__title">Adjustment</h2>
+      </div>
+      <p class="section-copy">The wide adjustment range accommodates a variety of wrist sizes, making the strap suitable for both children and adults. This adaptable design provides a personalized fit without the need for multiple strap sizes.</p>
+
+      <div class="media-sheet stack">
+        <img src="images/limbs-tracker/anthropometry.jpg" alt="Anthropometry reference table: hand breadth, wrist circumference, ankle height, and ankle circumference for children, female, and male populations">
+        <img src="images/limbs-tracker/sizing.jpg" alt="Wrist and ankle fit tested across small, medium, and large sizes, and over skin, socks, joggers, pants, jeans, and boots">
+      </div>
+    </section>
+
+    <!-- Magnets -->
+    <section class="panel panel--dark">
+      <div class="section-head">
+        <h2 class="section-head__title">Magnets arrangement</h2>
+      </div>
+      <p class="section-copy">Most magnetic watch straps currently on the market can only be used in a specific orientation, users cannot secure the strap end if it is too long.</p>
+      <p class="section-copy">To address this limitation, magnets with alternating polarity are integrated into the strap, enabling intuitive and precise length adjustment, while maintaining a secure, comfortable, and easy-to-use fit.</p>
+
+      <div class="media-sheet stack">
+        <img src="images/limbs-tracker/magnets-diagram.jpg" alt="Diagram of alternating magnet polarity along the strap and the resulting magnetic force">
+        <video autoplay muted loop playsinline preload="metadata"
+               aria-label="Strap sliding through a range of lengths as the alternating magnets engage">
+          <source src="images/limbs-tracker/magnets-straps.webm" type="video/webm">
+          <source src="images/limbs-tracker/magnets-straps.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <!-- Gear up -->
+    <section class="panel panel--dark">
+      <div class="section-head">
+        <h2 class="section-head__title">Gear up</h2>
+        <p class="section-head__sub">Both straps follow a simple interaction flow &ndash; <strong>wear</strong> &gt; <strong>pull to tighten</strong> &gt; <strong>secure</strong> &ndash; creating an intuitive and efficient user experience.</p>
+      </div>
+
+      <div class="media-row media-row--2 media-row--gap-sm stack">
+        <div>
+          <p class="section-copy">The <strong>wrist tracker strap</strong> is designed to form a loop, enabling users to put the tracker on with single hand, without the assistance from store staff.</p>
+          <div class="ph media--1x1 stack--tight">
+            <video autoplay muted loop playsinline preload="metadata"
+                   aria-label="Wrist tracker strap being looped on and tightened with one hand">
+              <source src="images/limbs-tracker/gear-up-wrist.webm" type="video/webm">
+              <source src="images/limbs-tracker/gear-up-wrist.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div>
+          <p class="section-copy">The <strong>ankle tracker strap</strong> is designed to be worn on the outside of ankle, allowing full range of motion and natural bending during gameplay.</p>
+          <div class="ph media--1x1 stack--tight">
+            <video autoplay muted loop playsinline preload="metadata"
+                   aria-label="Ankle tracker strap being fastened over the outside of the ankle">
+              <source src="images/limbs-tracker/gear-up-ankle.webm" type="video/webm">
+              <source src="images/limbs-tracker/gear-up-ankle.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Protective flaps -->
+    <section class="panel panel--dark">
+      <div class="section-head">
+        <h2 class="section-head__title">Protective flaps</h2>
+      </div>
+      <p class="section-copy">Protective flaps on both wrist and ankle straps shield the magnetic fasteners from catching on other gear. Working alongside an array of strong magnets, the flaps provide an additional layer of protection that enhances fastening reliability, reducing the risk of accidental loosening during high intensity and fast paced gameplay.</p>
+
+      <div class="media-row media-row--2 media-row--gap-sm stack">
+        <div class="ph media--3x4">
+          <img src="images/limbs-tracker/flap-wrist.jpg" alt="Protective flap on the wrist strap being lifted away from the fastener">
+        </div>
+        <div class="ph media--3x4">
+          <img src="images/limbs-tracker/flap-ankle.jpg" alt="Protective flap on the ankle strap being lifted away from the fastener">
+        </div>
+      </div>
+    </section>
+
+    <!-- CMF -->
+    <section class="panel panel--dark">
+      <div class="section-head">
+        <h2 class="section-head__title">CMF selection</h2>
+      </div>
+      <p class="section-copy">Silicone was selected for its durability and flexibility, enabling the trackers to maintain a secure fit while resisting wear, cracking, and deformation over time.</p>
+      <p class="section-copy">Its water-resistant properties and ease of cleaning make it ideal for wearable applications, where sweat and dirt can accumulate during regular use. This ensures the trackers remain hygienic and suitable for repeated use.</p>
+      <p class="section-copy">In addition to its practical advantages, silicone provides a soft, comfortable surface against the skin, enhancing the overall user experience. A dark grey matte finish was chosen to create a premium aesthetic while allowing the player colours to stand out clearly.</p>
+
+      <div class="ph media--diagram media--4x3 stack">
+        <img src="images/limbs-tracker/cmf.jpg" alt="Render of the tracker in dark grey silicone with a blue player colour">
+      </div>
+    </section>
+
+    <!-- Branding -->
+    <section class="panel panel--dark">
+      <div class="section-head">
+        <h2 class="section-head__title">Branding</h2>
+      </div>
+      <p class="section-copy">A raised logo on the underside of the device temporarily leaves an imprint on player&rsquo;s wrists after use. This creates a memorable interaction with the product while reinforcing brand identity in a subtle and playful way.</p>
+
+      <div class="ph media--4x3 stack">
+        <img src="images/limbs-tracker/branding.jpg" alt="Sandbox VR logo imprinted on a player's wrist after removing the tracker">
+      </div>
+    </section>
+
+    <!-- Full set -->
+    <section class="panel panel--light">
+      <div class="section-head">
+        <h2 class="section-head__title">Full set</h2>
+      </div>
+
+      <div class="ph media--diagram media--1x1 bleed stack">
+        <img src="images/limbs-tracker/full-set.jpg" alt="Left and right wrist and ankle straps shown as a complete set">
+      </div>
+
+      <div class="ph media--4x3 bleed stack--tight">
+        <img src="images/limbs-tracker/full-set-detail.jpg" alt="The four trackers in pink player colour laid out on the arena floor">
+      </div>
+    </section>
+
+    <!-- In context -->
+    <section class="panel panel--light">
+      <div class="section-head">
+        <h2 class="section-head__title">In context visuals</h2>
+      </div>
+
+      <div class="context-stack bleed">
+        <div class="ph media--4x3"><img src="images/limbs-tracker/context-1.jpg" alt="Player wearing wrist trackers under arena lighting"></div>
+        <div class="ph media--4x3"><img src="images/limbs-tracker/context-2.jpg" alt="Player shouldering a rifle prop with wrist trackers fitted"></div>
+        <div class="ph media--4x3"><img src="images/limbs-tracker/context-3.jpg" alt="Players mid-game wearing wrist and ankle trackers"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__links">
+        <a href="mailto:cheryltangdesign@gmail.com">cheryltangdesign@gmail.com</a>
+        <span class="site-footer__sep" aria-hidden="true">|</span>
+        <a href="https://www.linkedin.com/in/cheryltang211/" target="_blank" rel="noopener">www.linkedin.com/in/cheryltang211/</a>
+      </p>
+      <p class="site-footer__copy">&copy; Cheryl Tang 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -18,8 +18,8 @@ templating, so a change to either needs to be made in all four.
 
 ## Images
 
-The header logo, all twelve grid tiles, and the Sandbox VR project shots are in
-place. Still missing: the About portrait, the six client logos, and the four
+The header logo, all twelve grid tiles, the Sandbox VR project shots, and the
+About portrait are in place. Still missing: the six client logos and the four
 software icons on the project hero. Those slots hold their shape and render
 their `alt` text as a grey label so you can see what belongs where. Paths and
 expected aspect ratios are listed in `images/README.md`.
@@ -28,7 +28,7 @@ expected aspect ratios are listed in `images/README.md`.
 
 - Tiles 2–6 on `index.html` and all six on `more.html` have no `href` yet.
   Search the HTML for `TODO`.
-- About portrait, client logos, and the project hero's tool icons.
+- Client logos and the project hero's tool icons.
 
 ## Fonts
 

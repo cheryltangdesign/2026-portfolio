@@ -15,6 +15,7 @@ step: open `index.html` in a browser, or serve the folder
 | `nokia-earbuds.html` | `mockups/project 03` | Nokia Micro Earbuds Pro case study |
 | `nursery-pal-glow.html` | `mockups/project 04` | Hubble Nursery Pal Glow case study |
 | `mimo-app.html` | `mockups/project 05` | Mimo connected app ecosystem case study |
+| `maskfone.html` | `mockups/project 06` | MaskFone wearable audio mask case study |
 
 The sticky header and the footer are repeated in each file — there is no
 templating, so a change to either needs to be made in all four.
@@ -29,7 +30,7 @@ expected aspect ratios are listed in `images/README.md`.
 
 ## Still to fill in
 
-- Tile 6 on `index.html` and all six on `more.html` have no `href` yet.
+- All six `index.html` project tiles are linked. The six `more.html` tiles still have no `href`.
   Search the HTML for `TODO`.
 - Client logos and the project hero's tool icons.
 

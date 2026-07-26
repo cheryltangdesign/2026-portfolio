@@ -1041,6 +1041,101 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 /* =========================================================
+   MaskFone
+   ========================================================= */
+
+.project--maskfone {
+  background: #fff;
+  color: #666;
+}
+
+.maskfone-hero {
+  position: relative;
+  aspect-ratio: 1200 / 800;
+  overflow: hidden;
+  background: #eee;
+}
+
+.maskfone-hero__photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.maskfone-hero__logo {
+  position: absolute;
+  top: 42px;
+  left: 42px;
+  width: 180px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.maskfone-hero__award {
+  position: absolute;
+  left: 42px;
+  bottom: 42px;
+  width: 72px;
+}
+
+.maskfone-intro,
+.maskfone-copy {
+  padding: 54px 30px;
+  color: #999;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.maskfone-intro p + p { margin-top: 25px; }
+
+.maskfone-copy { padding-block: 58px; }
+
+.maskfone-media {
+  display: block;
+  width: 100%;
+}
+
+.maskfone-media--product {
+  padding: 42px 55px;
+  background: #fbfaf9;
+  object-fit: contain;
+}
+
+.maskfone-section { padding-top: 58px; }
+
+.maskfone-section .section-head {
+  padding-inline: 30px;
+}
+
+.maskfone-section .section-head__title {
+  color: #5f5f5f;
+  font-size: clamp(28px, 3vw, 40px);
+}
+
+.maskfone-section .section-head__sub {
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.maskfone-lifestyle { margin-top: 48px; }
+
+.maskfone-context {
+  display: grid;
+  gap: 18px;
+  margin-top: 48px;
+}
+
+.maskfone-context img {
+  display: block;
+  width: 100%;
+}
+
+/* =========================================================
    Responsive
    ========================================================= */
 
@@ -1108,6 +1203,25 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
     top: 28px;
     left: 20px;
   }
+
+  .maskfone-hero { aspect-ratio: 4 / 5; }
+
+  .maskfone-hero__photo { object-position: 58% center; }
+
+  .maskfone-hero__logo {
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    height: 85px;
+  }
+
+  .maskfone-hero__award {
+    left: 20px;
+    bottom: 20px;
+    width: 55px;
+  }
+
+  .maskfone-media--product { padding: 24px 12px; }
 
   .project-hero__tools { gap: 16px; }
 

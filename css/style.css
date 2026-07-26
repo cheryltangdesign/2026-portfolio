@@ -824,6 +824,114 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 /* =========================================================
+   Hubble Nursery Pal Glow
+   ========================================================= */
+
+.project--hubble {
+  background: #fff;
+  color: #666;
+}
+
+.project-hero--hubble {
+  aspect-ratio: 1200 / 800;
+  background: #eee7e1;
+}
+
+.project-hero--hubble > img { object-position: center; }
+
+.project-hero__copy--hubble {
+  top: 48px;
+  color: #707070;
+}
+
+.project-hero__copy--hubble .project-hero__title {
+  font-size: clamp(30px, 4vw, 54px);
+  letter-spacing: .2em;
+}
+
+.project-hero__copy--hubble .project-hero__subtitle {
+  font-size: clamp(18px, 2.1vw, 28px);
+  letter-spacing: .18em;
+}
+
+.project-band--hubble {
+  background: #fff;
+  color: #969696;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.hubble-section {
+  padding: 58px var(--panel-pad) 0;
+  background: #fff;
+}
+
+.hubble-section--grey { background: #f1f0ef; }
+
+.hubble-section--dark {
+  padding-bottom: 48px;
+  background: #15111f;
+  color: #fff;
+}
+
+.hubble-section .section-head__title {
+  color: #606060;
+  font-size: clamp(28px, 3vw, 40px);
+}
+
+.hubble-section .section-head__sub {
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.hubble-section--dark .section-head__title { color: #fff; }
+
+.hubble-section--dark .section-head__sub { color: #aaa5b0; }
+
+.hubble-copy {
+  padding: 45px 24px;
+  color: #999;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.hubble-media {
+  display: block;
+  width: 100%;
+  margin-top: 46px;
+}
+
+.hubble-media--flush {
+  width: calc(100% + 2 * var(--panel-pad));
+  max-width: none;
+  margin-inline: calc(var(--panel-pad) * -1);
+}
+
+.hubble-media--joined { margin-top: 0; }
+
+.hubble-media--contain {
+  height: auto;
+  object-fit: contain;
+}
+
+.hubble-night {
+  aspect-ratio: 1.48 / 1;
+  object-fit: cover;
+}
+
+.hubble-head--embedded { padding: 58px 0 0; }
+
+.hubble-context-shot {
+  aspect-ratio: 1.45 / 1;
+  object-fit: cover;
+}
+
+/* =========================================================
    Responsive
    ========================================================= */
 
@@ -880,6 +988,12 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .project-hero__copy--nokia { top: 28px; }
 
   .nokia-products { padding-inline: 0; }
+
+  .project-hero--hubble { aspect-ratio: 4 / 5; }
+
+  .project-hero--hubble > img { object-position: 57% center; }
+
+  .project-hero__copy--hubble { top: 28px; }
 
   .project-hero__tools { gap: 16px; }
 

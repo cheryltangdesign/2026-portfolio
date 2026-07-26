@@ -536,7 +536,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .panel--dark .section-head__sub { color: var(--on-dark-soft); }
 
 .section-copy {
-  max-width: 1064px;
+  max-width: 1010px;
   margin: 22px auto 0;
   text-align: center;
   font-size: 18px;
@@ -1229,7 +1229,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   gap: 18px;
 }
 
-.netflix-context__stack img {
+.netflix-context__stack img,
+.netflix-context__stack video {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -1241,7 +1242,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   gap: 18px;
 }
 
-.netflix-context__pair img {
+.netflix-context__pair img,
+.netflix-context__pair video {
   height: 100%;
   max-height: 720px;
 }
@@ -1382,6 +1384,14 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .nokia-products { grid-template-columns: 1fr; }
 
   .figure-row--problem { margin-inline: 0; }
+
+  /* Stacked, these cards would otherwise blow up to full width. */
+  .figure-row--concepts {
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .figure-row--concepts img { max-width: 420px; }
 
   /* Stacked: each image goes back to carrying its own ratio. */
   .media-row--wide-narrow { aspect-ratio: auto; }

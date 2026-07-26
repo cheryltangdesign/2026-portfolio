@@ -11,7 +11,8 @@ step: open `index.html` in a browser, or serve the folder
 | `index.html` | `mockups/home` | Intro + 3×2 grid of square project tiles |
 | `more.html` | `mockups/more` | Second 3×2 grid |
 | `about.html` | `mockups/about` | Bio, career list, client logos |
-| `sandbox-vr.html` | `mockups/1` | Project page, linked from the first home tile |
+| `sandbox-vr.html` | `mockups/1` | Sandbox VR Active Head Tracker, first home tile |
+| `limbs-tracker.html` | `mockups/project 02` | Sandbox VR Limbs Tracker, second home tile |
 | `nokia-earbuds.html` | `mockups/project 03` | Nokia Micro Earbuds Pro case study |
 | `nursery-pal-glow.html` | `mockups/project 04` | Hubble Nursery Pal Glow case study |
 | `mimo-app.html` | `mockups/project 05` | Mimo connected app ecosystem case study |
@@ -24,7 +25,7 @@ step: open `index.html` in a browser, or serve the folder
 | `urban-composition.html` | `mockups/more 06` | UCL Urban Composition exhibition graphics |
 
 The sticky header and the footer are repeated in each file — there is no
-templating, so a change to either needs to be made in all four.
+templating, so a change to either has to be made in every page.
 
 ## Images
 

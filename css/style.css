@@ -323,15 +323,13 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .tile:focus-visible .tile__overlay { opacity: 1; }
 
 .tile__title {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 24px;
   letter-spacing: 0.04em;
 }
 
 .tile__meta {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.14em;
-  text-transform: uppercase;
   color: rgba(255, 255, 255, 0.82);
 }
 

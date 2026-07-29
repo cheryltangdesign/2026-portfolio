@@ -64,6 +64,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+main {
+  flex: 1;
+}
+
 img { max-width: 100%; }
 
 /* Keep [hidden] winning over the display rules further down. */

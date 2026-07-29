@@ -338,7 +338,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .tile__rule {
-  width: 120px;
+  width: 140px;
   height: 1px;
   background: rgba(255, 255, 255, 0.65);
   margin: 8px 0 10px;

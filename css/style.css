@@ -402,7 +402,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .prose p + p { margin-top: 22px; }
 
-.prose strong { color: var(--ink-muted); font-weight: 600; }
+.prose strong { color: var(--ink-soft); font-weight: 600; }
 
 /* Career timeline */
 
@@ -417,19 +417,19 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .timeline__year {
   text-align: right;
-  color: var(--ink-muted);
+  color: var(--ink-soft);
   padding-top: 1px;
 }
 
 .timeline__role { margin: 0; color: var(--ink-soft); }
 
 .timeline__role a {
-  color: var(--ink-muted);
+  color: var(--ink-soft);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.timeline__co { color: var(--ink); }
+.timeline__co { color: var(--ink-soft); }
 
 .timeline__job { display: block; margin-top: 3px; }
 
@@ -445,7 +445,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   display: grid;
   grid-template-columns: 460px 1fr;
   gap: 58px;
-  align-items: start;
+  align-items: center;
 }
 
 .about__subtitle {

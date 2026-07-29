@@ -1,6 +1,5 @@
 /* =========================================================
    Cheryl Tang — portfolio
-   Tokens
    ========================================================= */
 
 :root {
@@ -530,11 +529,11 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   gap: 30px;
 }
 
-.project-hero__tools .ph {
+.project-hero__tools img {
   width: 32px;
   height: 32px;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.08);
+  object-fit: contain;
+  background: transparent;
 }
 
 /* Too small to carry a label — leave the empty square. */

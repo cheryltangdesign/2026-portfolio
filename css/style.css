@@ -329,17 +329,17 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .tile:hover .tile__overlay,
 .tile:focus-visible .tile__overlay { opacity: 1; }
 
-.tile__title {
-  font-size: 38px;
-  font-weight:300;
-  letter-spacing: 0.04em;
-  line-height:1.15;
-}
-
 .tile__rule{
     width: 90px;
     height: 1px;
     background: rgba(255,255,255,.75);
+
+.tile__title {
+  font-size: 24px;
+  font-weight:100;
+  letter-spacing: 0.04em;
+  line-height:1.15;
+}
 
 .tile__meta {
   font-size: 16px;

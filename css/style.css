@@ -26,7 +26,7 @@
 
   /* Type */
   --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
-  --font-sans: "Avenir Next", "Avenir", "Nunito Sans", -apple-system,
+  --font-sans: "Poppins", -apple-system,
     BlinkMacSystemFont, "Segoe UI", sans-serif;
 
   /* Layout — each --container-* is a *content* width; gutters sit outside it */
@@ -54,7 +54,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: var(--font-sans);
+  font-family: var(--font-Poppins);
   font-size: 17px;
   line-height: 1.35;
   -webkit-font-smoothing: antialiased;
@@ -177,7 +177,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .nav__link {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.09em;
   text-transform: uppercase;

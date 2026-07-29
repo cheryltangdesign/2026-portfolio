@@ -452,15 +452,15 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .client-logos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 34px 30px;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.client-logos .ph {
-  aspect-ratio: 3 / 1;
-  background: transparent;
+.client-logos img {
+  display: block;
+  width: 85%;
+  height: auto;
 }
 
 /* =========================================================

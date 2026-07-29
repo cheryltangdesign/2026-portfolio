@@ -285,6 +285,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   background: var(--placeholder);
   text-decoration: none;
   color: var(--on-dark);
+  border-radius: 6px;
 }
 
 .tile > img {
@@ -306,13 +307,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   transition: opacity 0.3s ease;
 }
 
-.tile__rule {
-  width: 120px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.65);
-  margin: 8px 0 6px;
-}
-
 .tile__overlay {
   position: absolute;
   inset: 0;
@@ -321,7 +315,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 10px;
   padding: 28px;
   text-align: center;
   opacity: 0;
@@ -341,6 +335,22 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 0.04em;
+}
+
+.tile__rule {
+  width: 120px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.65);
+  margin: 8px 0 10px;
+
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.35s ease;
+}
+
+.tile:hover .tile__rule,
+.tile:focus-visible .tile__rule {
+  transform: scaleX(1);
 }
 
 .tile__meta {

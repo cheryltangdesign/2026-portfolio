@@ -457,10 +457,15 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   justify-content: center;
 }
 
+.client-logos .ph {
+  background: transparent;
+}
+
 .client-logos img {
   display: block;
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 /* =========================================================

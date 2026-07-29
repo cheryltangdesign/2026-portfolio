@@ -131,7 +131,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--surface);
+  border-bottom:1px solid #ececec;
+  background:#fff;
 }
 
 .site-header__inner {
@@ -140,9 +141,9 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   justify-content: space-between;
   gap: 24px;
   height: var(--header-h);
-  padding: 0 var(--gutter-wide);
-  max-width: calc(var(--container-project) + 2 * var(--gutter-wide));
-  margin: 0 auto;
+  padding: 18px 24px;
+  max-width:1180px;
+  margin: auto;
 }
 
 .brand {
@@ -229,7 +230,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .container {
   max-width: calc(var(--container) + 2 * var(--gutter));
-  margin: 0 auto;
+  margin: auto;
   padding: 0 var(--gutter);
 }
 
@@ -241,21 +242,21 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
    Home — intro
    ========================================================= */
 
-.intro { padding: 46px 0 40px; }
+.intro { margin: 55px 0 40px; }
 
 .intro__title {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(40px, 5vw, 64px);
-  line-height: 1.05;
+  font-size: 72px;
+  line-height: 1;
   color: var(--green-deep);
 }
 
 .intro__tagline {
-  margin-top: 12px;
+  margin-top: 18px;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(28px, 3.5vw, 45px);
+  font-size: 52px;
   line-height: 1.1;
   color: var(--green);
 }
@@ -267,7 +268,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .work-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--grid-gap);
+  gap: 12px;
   padding-bottom: 50px;
 }
 
@@ -309,9 +310,9 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 10px;
-  padding: 28px;
+  padding: 24px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease;

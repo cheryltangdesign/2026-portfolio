@@ -459,7 +459,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .client-logos img {
   display: block;
-  width: 85%;
+  width: 100%;
   height: auto;
 }
 

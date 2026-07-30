@@ -1206,7 +1206,9 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
     position: absolute;
     left: 40px;
     bottom: 40px;
-    width: clamp(260px, 2.8vw, 360px);
+    width: 240px;
+    height: auto;
+    display: block;
 }
 
 .netflix-intro,

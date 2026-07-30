@@ -1286,7 +1286,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   color: #777;
 }
 
-.detail-hero__copy--dark { color: --green-deep; }
+.detail-hero__copy--dark { color: var(--green-deep); }
 .wall-hero__title {
   font-size: clamp(30px, 3.4vw, 56px);
   font-weight: 280;

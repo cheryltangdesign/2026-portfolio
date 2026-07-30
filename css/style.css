@@ -519,6 +519,21 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   letter-spacing: 0.2em;
 }
 
+.project-hero__title__dark {
+  color: var(--ink-muted);
+  font-size: clamp(30px, 3.4vw, 56px);
+  font-weight: 280;
+  letter-spacing: 0.22em;
+}
+
+.project-hero__subtitle__dark {
+  margin-top: 10px;
+  color: var(--ink-muted);
+  font-size: clamp(16px, 2.2vw, 30px);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
 .project-hero__tools {
   position: absolute;
   top: clamp(20px, 3vw, 44px);
@@ -1267,65 +1282,22 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .detail-hero__copy {
   position: absolute;
   top: 44px;
-  left: var(--panel-pad);
-  z-index: 1;
+  left: 42px;
+  color: #777;
 }
 
-.project-hero__title,
-.project-hero__title__dark,
+.detail-hero__copy--dark { color: --green-deep; }
 .wall-hero__title {
-  font: inherit;
-}
-
-.project-hero__subtitle,
-.project-hero__subtitle__dark,
-.wall-hero__subtitle {
-  font: inherit;
-  margin-top: inherit;
-}
-
-/* Master title */
-.project-hero__title {
   font-size: clamp(30px, 3.4vw, 56px);
   font-weight: 280;
-  letter-spacing: 0.22em;
-  color: var(--on-dark);
+  letter-spacing: .22em;
 }
 
-/* Master subtitle */
-.project-hero__subtitle {
+.wall-hero__subtitle {
   margin-top: 10px;
   font-size: clamp(16px, 2.2vw, 30px);
   font-weight: 400;
-  letter-spacing: 0.2em;
-  color: var(--on-dark);
-}
-
-/* Dark version = same typography, different colour */
-.project-hero__title__dark,
-.wall-hero__title {
-  color: var(--green-deep);
-}
-
-.project-hero__subtitle__dark,
-.wall-hero__subtitle {
-  color: var(--green-deep);
-}
-
-/* Light hero projects — dark grey title colour */
-.project-hero__copy--nokia .project-hero__title,
-.project-hero__copy--nokia .project-hero__subtitle,
-.project-hero__copy--hubble .project-hero__title,
-.project-hero__copy--hubble .project-hero__subtitle,
-.mimo-hero__copy .project-hero__title,
-.mimo-hero__copy .project-hero__subtitle {
-  color: var(--ink-muted);
-}
-
-/* Wall Theory hero text colour */
-.detail-hero__copy--dark .wall-hero__title,
-.detail-hero__copy--dark .wall-hero__subtitle {
-  color: var(--green-deep);
+  letter-spacing: .2em;
 }
 
 .detail-hero__copy h1,

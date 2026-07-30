@@ -1336,11 +1336,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   line-height: 1.45;
 }
 
-.detail-hero__copy--dark .wall-hero__title,
-.detail-hero__copy--dark .wall-hero__subtitle {
-  color: var(--green-deep);
-}
-
 .detail-copy strong { color: #666; font-weight: 600; }
 
 .detail-media--joined { margin-top: 0; }

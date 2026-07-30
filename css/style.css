@@ -534,6 +534,21 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   letter-spacing: 0.2em;
 }
 
+.project-hero__title__black {
+  color: var(--green-deep);
+  font-size: clamp(30px, 3.4vw, 56px);
+  font-weight: 280;
+  letter-spacing: 0.22em;
+}
+
+.project-hero__subtitle__black {
+  margin-top: 10px;
+  color: var(--green-deep);
+  font-size: clamp(16px, 2.2vw, 30px);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
 .project-hero__tools {
   position: absolute;
   top: clamp(20px, 3vw, 44px);

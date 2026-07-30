@@ -1447,33 +1447,26 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
   .figure-row--concepts img { max-width: 420px; }
 
-  /* Stacked: each image goes back to carrying its own ratio. */
-  .media-row--wide-narrow { aspect-ratio: auto; }
-  .media-row--wide-narrow .ph:first-child { aspect-ratio: 16 / 9; }
-  .media-row--wide-narrow .ph:last-child { aspect-ratio: 3 / 4; }
-  .media-row--2 .ph { aspect-ratio: 3 / 4; }
-
-  .panel { padding: 44px var(--panel-pad); }
-
-  .project-hero { aspect-ratio: 4 / 5; }
-
-  .project-hero--nokia { aspect-ratio: 4 / 5; }
-
-  .project-hero__copy--nokia { top: 28px; }
-
-  .nokia-products { padding-inline: 0; }
-
-  .project-hero--hubble { aspect-ratio: 4 / 5; }
-
-  .project-hero__copy--hubble { top: 28px; }
-
-  .mimo-hero__copy {
-    top: 28px;
-    left: 20px;
+  .project-hero,
+  .project-hero--nokia,
+  .project-hero--hubble,
+  .maskfone-hero,
+  .netflix-hero {
+    aspect-ratio: auto;
+    height: auto;
   }
 
-  .maskfone-hero { aspect-ratio: 4 / 5; }
-
+  .project-hero > img,
+  .project-hero--nokia > img,
+  .project-hero--hubble > img,
+  .maskfone-hero__photo,
+  .netflix-hero > img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+     
   .maskfone-hero__logo {
     top: 20px;
     left: 20px;

@@ -875,16 +875,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   color: #707070;
 }
 
-.project-hero__copy--hubble .project-hero__title {
-  font-size: clamp(30px, 4vw, 54px);
-  letter-spacing: .2em;
-}
-
-.project-hero__copy--hubble .project-hero__subtitle {
-  font-size: clamp(18px, 2.1vw, 28px);
-  letter-spacing: .18em;
-}
-
 .project-band--hubble {
   background: #fff;
   color: #969696;

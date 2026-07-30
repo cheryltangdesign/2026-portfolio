@@ -1312,6 +1312,12 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   color: var(--green-deep);
 }
 
+/* Wall Theory hero text colour */
+.detail-hero__copy--dark .wall-hero__title,
+.detail-hero__copy--dark .wall-hero__subtitle {
+  color: var(--green-deep);
+}
+
 .detail-hero__copy h1,
 .urban-hero__title {
   font-size: clamp(30px, 3.4vw, 56px);

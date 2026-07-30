@@ -1187,7 +1187,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   background: #222;
 }
 
-.netflix-hero > img {
+.netflix-hero__photo {
   display: block;
   width: 100%;
   height: 100%;

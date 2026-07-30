@@ -1202,6 +1202,14 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   text-shadow: 0 1px 15px rgba(0, 0, 0, .25);
 }
 
+.netflix-hero__banner{
+    display:block;
+    margin-top:34px;
+    width:520px;      /* adjust until it matches */
+    max-width:52%;
+    height:auto;
+}
+
 .netflix-intro,
 .netflix-note {
   padding: 54px 30px;

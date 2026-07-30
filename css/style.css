@@ -1073,17 +1073,15 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .maskfone-hero__logo {
   position: absolute;
-  top: 42px;
-  left: 42px;
-  width: 180px;
-  height: 130px;
-  object-fit: contain;
+  top: 30px;
+  left: 40px;
+  width: clamp(120px, 3.4vw, 180px);
 }
 
 .maskfone-hero__award {
   position: absolute;
-  left: 42px;
-  bottom: 42px;
+  left: 40px;
+  bottom: 40px;
   width: 72px;
 }
 

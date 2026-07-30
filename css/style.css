@@ -1459,15 +1459,11 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
   .project-hero--nokia { aspect-ratio: 4 / 5; }
 
-  .project-hero--nokia > img { object-position: 56% center; }
-
   .project-hero__copy--nokia { top: 28px; }
 
   .nokia-products { padding-inline: 0; }
 
   .project-hero--hubble { aspect-ratio: 4 / 5; }
-
-  .project-hero--hubble > img { object-position: 57% center; }
 
   .project-hero__copy--hubble { top: 28px; }
 
@@ -1477,8 +1473,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   }
 
   .maskfone-hero { aspect-ratio: 4 / 5; }
-
-  .maskfone-hero__photo { object-position: 58% center; }
 
   .maskfone-hero__logo {
     top: 20px;

@@ -519,6 +519,21 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   letter-spacing: 0.2em;
 }
 
+.project-hero__title__dark {
+  color: var(--ink-muted);
+  font-size: clamp(30px, 3.4vw, 56px);
+  font-weight: 280;
+  letter-spacing: 0.22em;
+}
+
+.project-hero__subtitle__dark {
+  margin-top: 10px;
+  color: var(--ink-muted);
+  font-size: clamp(16px, 2.2vw, 30px);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
 .project-hero__tools {
   position: absolute;
   top: clamp(20px, 3vw, 44px);
@@ -735,13 +750,11 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .project-hero__copy--nokia .project-hero__title {
-  color: var(--ink-muted);
   font-size: clamp(30px, 4vw, 54px);
   letter-spacing: .22em;
 }
 
 .project-hero__copy--nokia .project-hero__subtitle {
-  color: var(--ink-muted);
   font-size: clamp(18px, 2vw, 28px);
   line-height: 1.12;
   letter-spacing: .18em;
@@ -960,7 +973,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .project--mimo {
   background: #fff;
-  color: var(--ink-muted);
+  color: #646464;
 }
 
 .mimo-hero {
@@ -978,7 +991,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   z-index: 1;
   top: 46px;
   left: var(--panel-pad);
-  color: var(--ink-muted);;
+  color: #777;
 }
 
 .project-band--mimo {
@@ -1277,7 +1290,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .detail-hero__copy h1,
 .urban-hero__title {
-  color: var(--ink-muted);
   font-size: clamp(30px, 3.4vw, 56px);
   font-weight: 280;
   letter-spacing: .22em;
@@ -1285,7 +1297,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .detail-hero__copy p,
 .urban-hero__subtitle {
-  color: var(--ink-muted);
   margin-top: 10px;
   font-size: clamp(16px, 2.2vw, 30px);
   font-weight: 400;

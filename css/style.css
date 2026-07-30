@@ -1196,8 +1196,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .netflix-hero__copy {
   position: absolute;
-  top: 44px;
-  left: 42px;
+  top: 40px;
+  left: 40px;
   color: #fff;
   text-shadow: 0 1px 15px rgba(0, 0, 0, .25);
 }

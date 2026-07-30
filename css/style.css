@@ -1271,36 +1271,43 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   z-index: 1;
 }
 
-/* Shared typography */
 .project-hero__title,
 .project-hero__title__dark,
 .wall-hero__title {
-  font-size: clamp(30px, 3.4vw, 56px);
-  font-weight: 280;
-  letter-spacing: 0.22em;
+  font: inherit;
 }
 
 .project-hero__subtitle,
 .project-hero__subtitle__dark,
 .wall-hero__subtitle {
+  font: inherit;
+  margin-top: inherit;
+}
+
+/* Master title */
+.project-hero__title {
+  font-size: clamp(30px, 3.4vw, 56px);
+  font-weight: 280;
+  letter-spacing: 0.22em;
+  color: var(--on-dark);
+}
+
+/* Master subtitle */
+.project-hero__subtitle {
   margin-top: 10px;
   font-size: clamp(16px, 2.2vw, 30px);
   font-weight: 400;
   letter-spacing: 0.2em;
-}
-
-/* Only colours differ */
-.project-hero__title,
-.project-hero__subtitle {
   color: var(--on-dark);
 }
 
+/* Dark version = same typography, different colour */
 .project-hero__title__dark,
-.project-hero__subtitle__dark {
-  color: var(--ink-muted);
+.wall-hero__title {
+  color: var(--green-deep);
 }
 
-.wall-hero__title,
+.project-hero__subtitle__dark,
 .wall-hero__subtitle {
   color: var(--green-deep);
 }

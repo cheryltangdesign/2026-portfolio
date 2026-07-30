@@ -1274,18 +1274,18 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .detail-hero__copy--dark { color: #333; }
 
 .detail-hero__copy h1,
-.urban-title h1 {
-  font-size: clamp(30px, 4.2vw, 54px);
-  font-weight: 300;
-  letter-spacing: .2em;
+.urban-hero__title {
+  font-size: clamp(30px, 3.4vw, 56px);
+  font-weight: 280;
+  letter-spacing: .22em;
 }
 
 .detail-hero__copy p,
-.urban-title p {
-  margin-top: 16px;
-  font-size: clamp(18px, 2.2vw, 28px);
-  font-weight: 700;
-  letter-spacing: .16em;
+.urban-hero__subtitle {
+  margin-top: 10px;
+  font-size: clamp(16px, 2.2vw, 30px);
+  font-weight: 400;
+  letter-spacing: .2em;
 }
 
 .detail-copy {

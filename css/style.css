@@ -526,7 +526,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .project-hero__tools img {
@@ -1392,11 +1392,11 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .urban-tools{
     display:flex;
     flex-direction:column;
-    gap:10px;
+    gap:20px;
 }
 
 .urban-tools img{
-    width:34px;
+    width:40px;
     display:block;
 }
 

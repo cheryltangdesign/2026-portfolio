@@ -1377,22 +1377,26 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .urban-page { background: #faf9f7; }
 
-.urban-hero{
-    position:relative;
+.urban-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    margin:48px 42px 30px;
+}
+
+.urban-title{
+    padding:0;
 }
 
 .urban-tools{
-    position:absolute;
-    top:30px;
-    right:30px;
-
     display:flex;
     flex-direction:column;
-    gap:8px;
+    gap:10px;
 }
 
 .urban-tools img{
-    width:32px;
+    width:34px;
     display:block;
 }
 

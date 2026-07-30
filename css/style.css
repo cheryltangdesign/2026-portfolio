@@ -1312,6 +1312,16 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   color: var(--green-deep);
 }
 
+/* Light hero projects — dark grey title colour */
+.project-hero__copy--nokia .project-hero__title,
+.project-hero__copy--nokia .project-hero__subtitle,
+.project-hero__copy--hubble .project-hero__title,
+.project-hero__copy--hubble .project-hero__subtitle,
+.mimo-hero__copy .project-hero__title,
+.mimo-hero__copy .project-hero__subtitle {
+  color: var(--ink-muted);
+}
+
 /* Wall Theory hero text colour */
 .detail-hero__copy--dark .wall-hero__title,
 .detail-hero__copy--dark .wall-hero__subtitle {

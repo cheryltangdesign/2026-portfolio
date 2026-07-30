@@ -1456,7 +1456,11 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
     height: auto;
   }
 
-  .project-hero > img,
+  .project-hero > img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
   .project-hero--nokia > img,
   .project-hero--hubble > img,
   .maskfone-hero__photo,

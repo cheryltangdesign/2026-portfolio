@@ -1204,7 +1204,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .netflix-hero__banner{
     display:block;
-    margin-top:34px;
+    margin-bottom:40px;
     width:520px;      /* adjust until it matches */
     max-width:52%;
     height:auto;

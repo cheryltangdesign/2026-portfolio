@@ -1207,7 +1207,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
     left: 40px;
     bottom: 40px;
     width: 400px;
-    max-width: 52%;
     height: auto;
     display: block;
 }

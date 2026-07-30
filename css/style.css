@@ -1377,6 +1377,27 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .urban-page { background: #faf9f7; }
 
+/* Urban Composition hero */
+.urban-hero {
+  position: relative;
+}
+
+.urban-hero .project-hero__tools {
+  position: absolute;
+  top: 44px;
+  right: 42px;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.urban-hero .project-hero__tools img {
+  width: 28px;
+  height: auto;
+}
+
 /* =========================================================
    Responsive
    ========================================================= */

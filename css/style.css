@@ -1221,11 +1221,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   line-height: 1.45;
 }
 
-.netflix-media {
-  display: block;
-  width: 100%;
-}
-
 .netflix-section {
   padding: 58px 0 0;
   background: #fff;

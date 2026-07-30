@@ -1377,36 +1377,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .urban-page { background: #faf9f7; }
 
-.urban-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 48px 42px 40px;
-}
-
-.urban-title {
-    padding: 0;
-    color: #777;
-}
-
-.urban-header .project-hero__tools {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.urban-header .project-hero__tools img {
-    width: 40 px;
-    height: auto;
-    display: block;
-}
-
-.urban-hero img {
-    display: block;
-    width: 100%;
-}
-
 /* =========================================================
    Responsive
    ========================================================= */

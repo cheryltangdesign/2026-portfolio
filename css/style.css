@@ -519,21 +519,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   letter-spacing: 0.2em;
 }
 
-.project-hero__title__dark {
-  color: var(--ink-muted);
-  font-size: clamp(30px, 3.4vw, 56px);
-  font-weight: 280;
-  letter-spacing: 0.22em;
-}
-
-.project-hero__subtitle__dark {
-  margin-top: 10px;
-  color: var(--ink-muted);
-  font-size: clamp(16px, 2.2vw, 30px);
-  font-weight: 400;
-  letter-spacing: 0.2em;
-}
-
 .project-hero__tools {
   position: absolute;
   top: clamp(20px, 3vw, 44px);
@@ -1282,22 +1267,42 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .detail-hero__copy {
   position: absolute;
   top: 44px;
-  left: 42px;
-  color: #777;
+  left: var(--panel-pad);
+  z-index: 1;
 }
 
-.detail-hero__copy--dark { color: --green-deep; }
+/* Shared typography */
+.project-hero__title,
+.project-hero__title__dark,
 .wall-hero__title {
   font-size: clamp(30px, 3.4vw, 56px);
   font-weight: 280;
-  letter-spacing: .22em;
+  letter-spacing: 0.22em;
 }
 
+.project-hero__subtitle,
+.project-hero__subtitle__dark,
 .wall-hero__subtitle {
   margin-top: 10px;
   font-size: clamp(16px, 2.2vw, 30px);
   font-weight: 400;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
+}
+
+/* Only colours differ */
+.project-hero__title,
+.project-hero__subtitle {
+  color: var(--on-dark);
+}
+
+.project-hero__title__dark,
+.project-hero__subtitle__dark {
+  color: var(--ink-muted);
+}
+
+.wall-hero__title,
+.wall-hero__subtitle {
+  color: var(--green-deep);
 }
 
 .detail-hero__copy h1,

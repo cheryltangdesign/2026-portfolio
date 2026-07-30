@@ -500,7 +500,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .project-hero__copy {
   position: absolute;
-  top: 44px;
+  top: 40px;
   left: var(--panel-pad);
   z-index: 1;
   color: var(--on-dark);

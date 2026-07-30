@@ -989,19 +989,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   color: #777;
 }
 
-.mimo-hero__copy h1 {
-  font-size: clamp(30px, 4vw, 54px);
-  font-weight: 300;
-  letter-spacing: .2em;
-}
-
-.mimo-hero__copy p {
-  margin-top: 12px;
-  font-size: clamp(18px, 2vw, 27px);
-  font-weight: 700;
-  letter-spacing: .18em;
-}
-
 .project-band--mimo {
   background: #fff;
   color: #999;

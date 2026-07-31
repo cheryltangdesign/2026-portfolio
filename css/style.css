@@ -1465,19 +1465,29 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   }
    
   .timeline {
-     order: 3;
-     margin-top: 40;
-     width: fit-content;
-     margin-left: auto;
-     margin-right: auto;
+    order: 3;
+    margin-top: 40px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .timeline__row {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 120px auto;
+    column-gap: 24px;
     text-align: left;
+    width: max-content;
   }
 
   .timeline__year {
     text-align: right;
+    white-space: nowrap;
+  }
+
+  .timeline__role,
+  .timeline__co,
+  .timeline__job {
+    text-align: left;
   }
    
   .about__experience {

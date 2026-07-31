@@ -546,6 +546,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .project-hero__title__dark,
 .project-hero__title__black {
   font-size: var(--hero-title-size);
+  font-weight: 280;
   letter-spacing: 0.22em;
 }
 

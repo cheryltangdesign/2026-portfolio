@@ -1126,16 +1126,16 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .maskfone-hero__logo {
   position: absolute;
-  top: 3%;
+  top: 3.2%;
   left: 4%;
-  width: 10%;
+  width: 15%;
 }
 
 .maskfone-hero__award {
   position: absolute;
   bottom: 4%;
   left: 4%;
-  width: clamp(20px, 10vw, 55px);
+  width: 10%;
 }
 
 .maskfone-intro,

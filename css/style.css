@@ -1430,21 +1430,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
    Responsive
    ========================================================= */
 
-@media (min-width:761px){
-
-    .project-header{
-        position:relative;
-        z-index:2;
-        margin-bottom:-120px;
-        padding:40px;
-        color:white;
-    }
-
-    .project-hero{
-        margin-top:0;
-    }
-}
-
 @media (max-width: 1000px) {
   .about__top,
   .about__bottom {
@@ -1464,6 +1449,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
   .media-row--wide-narrow { grid-template-columns: 1fr 1fr; }
 }
+
 
 @media (max-width: 760px) {
   :root {--gutter: 20px; --gutter-wide: 20px; --panel-pad: 20px; }
@@ -1503,6 +1489,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .project-hero--hubble,
   .maskfone-hero,
   .netflix-hero {
+    position: relative;
     aspect-ratio: auto;
     height: auto;
   }

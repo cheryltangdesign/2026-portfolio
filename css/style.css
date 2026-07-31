@@ -540,48 +540,44 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   color: var(--on-dark);
 }
 
-.project-hero__title {
-  font-size: var(--hero-title-size);
-  font-weight: 280;
-  letter-spacing: 0.22em;
-}
 
-.project-hero__subtitle {
-  margin-top: 10px;
-  font-size: var(--hero-subtitle-size);
-  font-weight: 400;
-  letter-spacing: 0.2em;
+.project-hero__title,
+.project-hero__title__dark,
+.project-hero__title__black {
+  font-size: var(--hero-title-size);
+  letter-spacing: 0.22em;
 }
 
 .project-hero__title__dark {
   color: var(--ink-muted);
-  font-size: var(--hero-title-size);
-  font-weight: 280;
-  letter-spacing: 0.22em;
-}
-
-.project-hero__subtitle__dark {
-  margin-top: 10px;
-  color: var(--ink-muted);
-  font-size: var(--hero-subtitle-size);
-  font-weight: 450;
-  letter-spacing: 0.2em;
 }
 
 .project-hero__title__black {
   color: var(--green-deep);
-  font-size: var(--hero-title-size);
-  font-weight: 280;
-  letter-spacing: 0.22em;
+}
+
+.project-hero__subtitle,
+.project-hero__subtitle__dark,
+.project-hero__subtitle__black {
+  margin-top: clamp(4px, 0.8vw, 10px);
+  font-size: var(--hero-subtitle-size);
+  letter-spacing: 0.2em;
+}
+
+.project-hero__subtitle {
+  font-weight: 400;
+}
+
+.project-hero__subtitle__dark {
+  color: var(--ink-muted);
+  font-weight: 450;
 }
 
 .project-hero__subtitle__black {
-  margin-top: 10px;
   color: var(--green-deep);
-  font-size: var(--hero-subtitle-size);
   font-weight: 450;
-  letter-spacing: 0.2em;
 }
+
 
 .project-hero__tools {
   position: absolute;

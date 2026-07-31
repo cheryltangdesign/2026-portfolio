@@ -576,9 +576,9 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   position: absolute;
   top: clamp(18px, 3vw, 40px);
   right: clamp(18px, 3vw, 40px);
+  gap: clamp(10px, 1.5vw, 20px);
   display: flex;
   flex-direction: column;
-  gap: clamp(10px, 1.5vw, 20px);
 }
 
 .project-hero__tools img {

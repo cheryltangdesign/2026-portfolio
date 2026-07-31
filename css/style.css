@@ -1490,8 +1490,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
   .maskfone-media--product { padding: 24px 12px; }
 
-  .netflix-hero { aspect-ratio: 4 / 5; }
-
   .netflix-hero__copy {
     top: 25px;
     left: 20px;

@@ -81,6 +81,7 @@ body {
   color: var(--ink-soft);
   font-family: var(--font-sans);
   font-size: 16px;
+  font-weight: 300;
   line-height: 1.35;
   -webkit-font-smoothing: antialiased;
 }

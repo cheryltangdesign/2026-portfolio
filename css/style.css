@@ -582,7 +582,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .project-hero__tools img {
-  width: clamp(20px, 2.6vw, 40px);
+  width: clamp(22px, 2.5vw, 40px);
   height: auto;
   display: block;
   object-fit: contain;

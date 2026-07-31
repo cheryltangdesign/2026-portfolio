@@ -335,8 +335,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  padding: 28px;
+  gap: clamp(6px, 1vw, 10px);
+  padding: clamp(16px, 2vw, 28px);
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -352,13 +352,13 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .tile:focus-visible .tile__overlay { opacity: 1; }
 
 .tile__title {
-  font-size: 24px;
+  font-size: clamp(18px, 2vw, 24px);
   font-weight: 300;
   letter-spacing: 0.04em;
 }
 
 .tile__rule {
-  width: 140px;
+  width: clamp(70px, 12vw, 140px);
   height: 1px;
   background: rgba(255, 255, 255, 0.65);
   margin: 8px 0 10px;
@@ -374,7 +374,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .tile__meta {
-  font-size: 16px;
+  font-size: clamp(12px, 1.3vw, 16px);
   letter-spacing: 0.14em;
   color: rgba(255, 255, 255, 0.82);
 }

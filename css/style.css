@@ -39,8 +39,8 @@
   --panel-pad: 40px;          /* inner padding of project panels */
 
    
-  --hero-title-size: clamp(30px, 3vw, 56px);
-  --hero-subtitle-size: clamp(16px, 3vw, 30px);
+  --hero-title-size: clamp(30px, 4.2vw, 56px);
+  --hero-subtitle-size: clamp(16px, 2vw, 30px);
   
    .project-hero__title,
    .project-hero__title__dark,

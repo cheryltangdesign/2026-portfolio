@@ -207,8 +207,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .nav__link {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
   letter-spacing: 0.09em;
   text-transform: uppercase;
   text-decoration: none;
@@ -220,7 +220,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .nav__link.is-active {
   color: var(--green-deep);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* =========================================================
@@ -232,7 +232,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   padding: clamp(28px, 5vw, 46px) var(--gutter) clamp(30px, 5vw, 50px);
   text-align: center;
   color: var(--ink-muted);
-  font-size: clamp(13px, 1.4vw, 16px);
+  font-size: clamp(12px, 1.4vw, 16px);
 }
 
 .site-footer__links {

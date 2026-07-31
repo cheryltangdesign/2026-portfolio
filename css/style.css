@@ -1460,9 +1460,16 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
      width: min(100%, 460px);
      margin: 0 auto;
   }
-  .about__intro { order: 2; }
-  .timeline { order: 3; margin-top: 0; }
-  .about__experience { order: -1; }
+  .about__intro {
+     order: 2;
+  }
+  .timeline {
+     order: 3;
+     margin-top: 40;
+  }
+  .about__experience {
+     order: -1;
+  }
 
   .feature-grid { gap: 44px 48px; }
 

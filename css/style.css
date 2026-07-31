@@ -1128,7 +1128,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   position: absolute;
   top: 3%;
   left: 4%;
-  width: clamp(20px, 4vw, 180px);
+  width: 10%;
 }
 
 .maskfone-hero__award {

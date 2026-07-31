@@ -1427,6 +1427,21 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
    Responsive
    ========================================================= */
 
+@media (min-width:761px){
+
+    .project-heading{
+        position:relative;
+        z-index:2;
+        margin-bottom:-120px;
+        padding:40px;
+        color:white;
+    }
+
+    .project-hero{
+        margin-top:0;
+    }
+}
+
 @media (max-width: 1000px) {
   :root {
    --hero-title-size: 44px;

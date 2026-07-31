@@ -1128,14 +1128,14 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   position: absolute;
   top: 3%;
   left: 4%;
-  width: clamp(120px, 4vw, 180px);
+  width: clamp(20px, 4vw, 180px);
 }
 
 .maskfone-hero__award {
   position: absolute;
   bottom: 4%;
   left: 4%;
-  width: clamp(40px, 10vw, 55px);
+  width: clamp(20px, 10vw, 55px);
 }
 
 .maskfone-intro,
@@ -1518,8 +1518,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   }
 
   .urban-title { padding: 30px 20px; }
-
-  .project-hero__tools { gap: 16px; }
 
   .nav { gap: 20px; }
 

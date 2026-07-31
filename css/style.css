@@ -437,7 +437,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .prose p + p { margin-top: 22px; }
 
-.prose strong { color: var(--ink-soft); font-weight: 600; }
+.prose strong { color: var(--ink-soft); font-weight: 500; }
 
 /* Career timeline */
 
@@ -453,6 +453,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .timeline__year {
   text-align: right;
   color: var(--ink-soft);
+  font-weight: 500;
   padding-top: 1px;
 }
 

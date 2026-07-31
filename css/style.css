@@ -57,7 +57,8 @@
    .detail-hero__copy p,
    .wall-hero__subtitle,
    .urban-hero__subtitle {
-       font-size: var(--hero-subtitle-size);
+      margin-top: clamp(4px, 0.8vw, 10px); 
+      font-size: var(--hero-subtitle-size);
    }
 
 /* =========================================================

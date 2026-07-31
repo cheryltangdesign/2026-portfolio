@@ -1445,11 +1445,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 @media (max-width: 1000px) {
-  :root {
-   --hero-title-size: 44px;
-   --hero-subtitle-size: 24px;
-  }
-   
   .about__top,
   .about__bottom {
     grid-template-columns: 1fr;
@@ -1470,13 +1465,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 @media (max-width: 760px) {
-  :root {
-    --hero-title-size: 32px;
-    --hero-subtitle-size: 18px;
-  }
-
-  :root {
-    --gutter: 20px; --gutter-wide: 20px; --panel-pad: 20px; }
+  :root {--gutter: 20px; --gutter-wide: 20px; --panel-pad: 20px; }
 
   .work-grid { grid-template-columns: repeat(2, 1fr); }
 
@@ -1573,11 +1562,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 @media (max-width: 520px) {
 
-  :root {
-   --hero-title-size: 26px;
-   --hero-subtitle-size: 16px;
-  }
-   
   .work-grid { grid-template-columns: 1fr; }
 
   .site-footer__links a { display: block; }

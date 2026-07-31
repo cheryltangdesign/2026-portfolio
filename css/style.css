@@ -1466,7 +1466,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .timeline {
      order: 3;
      margin-top: 40;
-     text-align: center;
   }
   .about__experience {
      order: -1;

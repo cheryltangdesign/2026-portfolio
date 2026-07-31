@@ -408,7 +408,10 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
    About
    ========================================================= */
 
-.about { padding: 40px 0 60px; }
+.about {
+   padding: 40px 0 60px;
+   font-weight: 300;
+}
 
 .about__top {
   display: grid;
@@ -432,13 +435,17 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   margin-bottom: 26px;
 }
 
-.prose p { color: var(--ink-soft); }
+.prose p {
+   color: var(--ink-soft);
+   font-weight: 300;
+}
 
 .prose p + p { margin-top: 22px; }
 
-.prose strong { color: var(--ink-soft); font-weight: 600; }
-
-/* Career timeline */
+.prose strong {
+   color: var(--ink-soft);
+   font-weight: 600;
+}
 
 .timeline { margin-top: 34px; }
 
@@ -449,13 +456,20 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   margin-bottom: 22px;
 }
 
+.timeline__year,
+.timeline__role,
+.timeline__co,
+.timeline__job {
+  color: var(--ink-soft);
+  font-weight: 300;
+}
+
 .timeline__year {
   text-align: right;
-  color: var(--ink-soft);
   padding-top: 1px;
 }
 
-.timeline__role { margin: 0; color: var(--ink-soft); }
+.timeline__role { margin: 0; }
 
 .timeline__role a {
   color: var(--ink-soft);
@@ -463,9 +477,10 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   text-underline-offset: 3px;
 }
 
-.timeline__co { color: var(--ink-soft); }
-
-.timeline__job { display: block; margin-top: 3px; }
+.timeline__job {
+   display: block;
+   margin-top: 3px;
+}
 
 /* Experience block */
 

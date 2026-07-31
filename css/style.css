@@ -534,8 +534,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .project-hero__copy {
   position: absolute;
-  top: clamp(18px, 3vw, 40px);
-  left: clamp(18px, 3vw, 40px);
+  top: clamp(16px, 3vw, 40px);
+  left: clamp(16px, 3vw, 40px);
   z-index: 1;
   color: var(--on-dark);
 }
@@ -585,8 +585,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .project-hero__tools {
   position: absolute;
-  top: clamp(18px, 3vw, 40px);
-  right: clamp(18px, 3vw, 40px);
+  top: clamp(16px, 3vw, 40px);
+  right: clamp(16px, 3vw, 40px);
   display: flex;
   flex-direction: column;
   gap: clamp(10px, 1.5vw, 20px);
@@ -1421,8 +1421,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
     align-items:flex-start;
 
     margin:
-     clamp(18px, 3vw, 40px)
-     clamp(18px, 3vw, 40px)
+     clamp(16px, 3vw, 40px)
+     clamp(16px, 3vw, 40px)
      30px;
 }
 

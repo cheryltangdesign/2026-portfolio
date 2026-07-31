@@ -1497,6 +1497,15 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
   .figure-row--concepts img { max-width: 420px; }
 
+
+   .project-hero__copy {
+     display:none;
+   }
+   .project-header {
+     display:block;
+   }
+
+   
   .project-hero,
   .project-hero--nokia,
   .project-hero--hubble,
@@ -1526,7 +1535,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
     top: 20px;
     left: 20px;
     width: 120px;
-    height: 85px;
   }
 
   .maskfone-hero__award {

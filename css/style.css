@@ -1429,7 +1429,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 @media (min-width:761px){
 
-    .project-heading{
+    .project-header{
         position:relative;
         z-index:2;
         margin-bottom:-120px;

@@ -1455,7 +1455,11 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   /* Single column: lead with the portrait, then the intro, then the
      career list — the two-column reading order doesn't survive stacking. */
   .about__col { display: contents; }
-  .about__portrait { order: 1; max-width: 460px; }
+  .about__portrait {
+     order: 1;
+     width: min(100%, 460px);
+     margin: 0 auto;
+  }
   .about__intro { order: 2; }
   .timeline { order: 3; margin-top: 0; }
   .about__experience { order: -1; }

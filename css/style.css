@@ -696,7 +696,7 @@ section {
   gap: 20px;
 }
 
-.media-row--wide-narrow .ph { height: auto; flex: none }
+.media-row--wide-narrow .ph { height: auto; flex: none; }
 
 .media-row--wide-narrow img {
   display: block;

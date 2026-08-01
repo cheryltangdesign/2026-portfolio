@@ -20,6 +20,13 @@
   --on-dark: #ffffff;
   --on-dark-soft: #dedce4;
 
+  /* Project-page NEW palette */ 
+  --bg-dark: #161221;
+  --bg-grey: #4D4D4D;
+  --bg-light: rgba(117,117,117,.1);
+  --bg-white: #FFFFFF;
+
+
   --placeholder: #e9e7e3;
   --placeholder-ink: #a09b93;
 
@@ -38,7 +45,7 @@
   --grid-gap: 10px;
   --panel-pad: 40px;          /* inner padding of project panels */
 
-   
+   /* Hero title */
   --hero-title-size: clamp(20px, 4.2vw, 56px);
   --hero-subtitle-size: clamp(10px, 2.3vw, 30px);
    }
@@ -60,6 +67,8 @@
       margin-top: clamp(4px, 0.8vw, 10px); 
       font-size: var(--hero-subtitle-size);
    }
+
+
 
 /* =========================================================
    Base

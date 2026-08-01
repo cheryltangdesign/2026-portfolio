@@ -705,7 +705,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 /* A white sheet holding one or more full-width graphics that must not be
    cropped — the reference tables and technical diagrams. */
 .media-sheet {
-  background: #fff;
   font-size: 0;
 }
 

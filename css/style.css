@@ -692,14 +692,14 @@ section {
    pair shares one height — so the ratio lives on the row. */
 .media-row--wide-narrow {
   display: flex;
-  align-items: stretch;
   gap: 20px;
 }
 
-.media-row--wide-narrow .ph { height: auto; flex: none; }
+.media-row--wide-narrow .ph:first-child { flex: 2; }
+
+.media-row--wide-narrow .ph:last-child { flex: 1; }
 
 .media-row--wide-narrow img {
-  display: block;
   height: 100%;
   width: auto;
   object-fit: contain;

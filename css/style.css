@@ -638,7 +638,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .section-head__sub {
   font-size: clamp(12px, 3vw, 18px);
-  margin-top: 18px;
   font-size: 18px;
   letter-spacing: 0.02em;
 }

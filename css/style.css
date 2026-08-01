@@ -639,8 +639,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   letter-spacing: 0.02em;
 }
 
-.panel--dark .section-head__sub { color: var(--white-soft); }
-
 .section-copy {
   max-width: 1010px;
   margin: 22px auto 0;
@@ -649,8 +647,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   line-height: 1.5;
   color: var(--white-soft);
 }
-
-.panel--light .section-copy { color: var(--ink-soft); }
 
 .section-copy + .section-copy { margin-top: 26px; }
 

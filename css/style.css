@@ -653,7 +653,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .section-copy + .section-copy { margin-top: 26px; }
 
-.stack { margin: 48px; }
+.stack { margin: 40px; }
 
 .stack--tight { margin-top: 28px; }
 

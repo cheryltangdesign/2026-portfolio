@@ -695,9 +695,7 @@ section {
   gap: 20px;
 }
 
-.media-row--wide-narrow .ph:first-child { flex: 2; }
-
-.media-row--wide-narrow .ph:last-child { flex: 1; }
+.media-row--wide-narrow .ph { flex: 1; }
 
 .media-row--wide-narrow img {
   height: 100%;

@@ -17,8 +17,8 @@
   --dark: #161221;
   --dark-raised: #292533;
   --band: #4c4c4c;
-  --on-dark: #ffffff;
-  --on-dark-soft: #dedce4;
+  --white: #ffffff;
+  --white-soft: #dedce4;
 
   /* Project-page NEW palette */ 
   --bg-dark: #161221;
@@ -328,7 +328,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   overflow: hidden;
   background: var(--placeholder);
   text-decoration: none;
-  color: var(--on-dark);
+  color: var(--white);
   border-radius: 6px;
 }
 
@@ -528,10 +528,10 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 }
 
 .panel { padding: 60px var(--panel-pad); }
-
-.panel--dark { background: var(--dark); color: var(--on-dark); }
-
-.panel--light { color: var(--ink); }
+.panel--dark { background: var(--bg-dark); color: var(--white); }
+.panel--grey { background: var(--bg-grey); color: var(--white); }
+.panel--light { background: var(--bg-light); color: var(--ink-soft); }
+.panel--white { background: var(--bg-white); color: var(--ink-soft); }
 
 /* Images that run edge to edge inside a panel. */
 .bleed { margin-inline: calc(var(--panel-pad) * -1); }
@@ -549,7 +549,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   top: clamp(16px, 3vw, 40px);
   left: clamp(16px, 3vw, 40px);
   z-index: 1;
-  color: var(--on-dark);
+  color: var(--white);
 }
 
 
@@ -616,7 +616,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .project-band {
   background: var(--band);
-  color: var(--on-dark);
+  color: var(--white);
   padding: 46px var(--panel-pad);
   text-align: center;
   font-size: 18px;
@@ -638,7 +638,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   letter-spacing: 0.02em;
 }
 
-.panel--dark .section-head__sub { color: var(--on-dark-soft); }
+.panel--dark .section-head__sub { color: var(--white-soft); }
 
 .section-copy {
   max-width: 1010px;
@@ -646,7 +646,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   text-align: center;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--on-dark-soft);
+  color: var(--white-soft);
 }
 
 .panel--light .section-copy { color: var(--ink-soft); }
@@ -778,7 +778,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   margin-top: 12px;
   font-size: 15px;
   line-height: 1.4;
-  color: var(--on-dark-soft);
+  color: var(--white-soft);
 }
 
 /* Light closing section */

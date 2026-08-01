@@ -1542,6 +1542,9 @@ section {
 
   .work-grid { grid-template-columns: repeat(2, 1fr); }
 
+  .media-row { flex-direction: column; }
+  .media-row img { height: auto; object-fit: contain; }
+   
   .feature-grid,
   .media-row--2,
   .media-row--3,

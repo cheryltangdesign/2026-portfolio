@@ -653,7 +653,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 .section-copy + .section-copy { margin-top: 26px; }
 
-.stack { margin-top: 48px; }
+.stack { margin: 48px; }
 
 .stack--tight { margin-top: 28px; }
 
@@ -701,7 +701,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .media--3x4 { aspect-ratio: 3 / 4; }
 
 .media--collage {
-  aspect-ratio: 1200 / 809;
+  aspect-ratio: 1200 / 800;
   background: var(--dark-raised);
 }
 

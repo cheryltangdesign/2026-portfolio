@@ -665,14 +665,24 @@ section {
 /* Media rows */
 
 .media-row {
-  display: grid;
+  display: flex;
   gap: 20px;
+  align-items: stretch;
 }
 
-.media-row--2 {
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+.media-row .ph {
+    flex: 1;
+    overflow: hidden;
 }
+
+.media-row img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media-row--2 { grid-template-columns: repeat(2, 1fr); gap: 40px; }
 
 .media-row--3 { grid-template-columns: repeat(3, 1fr); }
 

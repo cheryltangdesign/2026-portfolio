@@ -643,7 +643,7 @@ section {
 
 .section-head__sub {
   font-size: clamp(12px, 3vw, 18px);
-  font-weight: 250;
+  font-weight: 280;
   line-height: 1.5;
 }
 

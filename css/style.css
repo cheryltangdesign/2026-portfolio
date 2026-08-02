@@ -535,6 +535,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
 /* Images that run edge to edge inside a panel. */
 .bleed { margin-inline: calc(var(--panel-pad) * -1); }
+.bleed-y { margin-block: calc(var(--panel-pad) * -1); }
 
 /* Hero */
 

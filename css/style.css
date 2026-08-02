@@ -750,7 +750,6 @@ section {
 /* Sits marginally wider than the panel's own padding, as in the mockup. */
 .figure-row--problem {
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
   margin-inline: -8px;
 }
 

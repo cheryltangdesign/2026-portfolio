@@ -643,6 +643,7 @@ section {
 
 .section-head__sub {
   font-size: clamp(12px, 3vw, 18px);
+  font-weight: 300;
   letter-spacing: 0.02em;
 }
 

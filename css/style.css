@@ -743,7 +743,6 @@ section {
 .figure-row {
   display: grid;
   align-items: start;
-  margin-top: 44px;
 }
 
 .figure-row img { display: block; width: 100%; }

@@ -758,7 +758,7 @@ section {
    ~50px seen between photos in the mockup is mostly the images' own padding. */
 .figure-row--concepts {
   grid-template-columns: repeat(3, 1fr);
-  gap: 19px;
+  gap: 12px;
 }
 
 /* Feature cards */

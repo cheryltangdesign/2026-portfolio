@@ -638,7 +638,7 @@ section {
 .section-head__title {
   font-size: clamp(28px, 3.2vw, 40px);
   font-weight: 400;
-  line-height: 2;
+  line-height: 2.5;
   letter-spacing: 0.02em;
 }
 

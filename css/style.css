@@ -527,7 +527,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   padding: 0 var(--gutter-wide) 46px;
 }
 
-.panel { padding: 60px var(--panel-pad); }
+.panel { padding: 40px var(--panel-pad); }
 .panel--dark { background: var(--bg-dark); color: var(--white); }
 .panel--grey { background: var(--bg-grey); color: var(--white); }
 .panel--light { background: var(--bg-light); color: var(--ink-soft); }

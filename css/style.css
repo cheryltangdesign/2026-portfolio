@@ -687,7 +687,7 @@ section {
   grid-template-columns: 835fr 345fr;
   gap: 20px;
   align-items: stretch;
-  background: inherit;
+  background: var(--bg-dark);
 }
 
 .media-row--wide-narrow .ph { aspect-ratio: auto; }

@@ -135,7 +135,6 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   position: relative;
   display: block;
   overflow: hidden;
-  background: var(--placeholder);
 }
 
 .ph > img {

@@ -537,7 +537,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .bleed { margin-inline: calc(var(--panel-pad) * -1); }
 .bleed-top { margin-top: calc(var(--panel-pad) * -1); }
 .bleed-bottom { margin-bottom: calc(var(--panel-pad) * -1); }
-.bleed-flush { margin: 40px calc(var(--panel-pad) * -1) 0;  }
+.bleed-flush { margin: 20px calc(var(--panel-pad) * -1) 0;  }
 
 /* Hero */
 

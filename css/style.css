@@ -683,11 +683,20 @@ section {
 /* The sketch sheet is much wider than the model shelf beside it, and the
    pair shares one height — so the ratio lives on the row. */
 .media-row--wide-narrow {
+  display: grid;
   grid-template-columns: 835fr 345fr;
-  aspect-ratio: 1200 / 440;
+  gap: 20px;
+  align-items: stretch;
 }
 
-.media-row--wide-narrow .ph { height: 100%; }
+.media-row--wide-narrow .ph { aspect-ratio: auto; }
+
+.media-row--wide-narrow img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .media--diagram { background: #fff; }
 
@@ -1541,6 +1550,10 @@ section {
   .nokia-pair,
   .nokia-products { grid-template-columns: 1fr; }
 
+  .media-row--wide-narrow .ph { aspect-ratio: auto; }
+
+  .media-row--wide-narrow img { height: auto; object-fit: contain; }
+   
   .figure-row--problem { margin-inline: 0; }
 
   /* Stacked, these cards would otherwise blow up to full width. */

@@ -675,12 +675,9 @@ section {
   gap: 20px;
 }
 
-.media-row--2 {
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
+.media-row--2 { grid-template-columns: repeat(2, 1fr); gap: 20px; }
 
-.media-row--3 { grid-template-columns: repeat(3, 1fr); }
+.media-row--3 { grid-template-columns: repeat(3, 1fr); gap: 20px; }
 
 .media-row--gap-sm { gap: 20px; }
 

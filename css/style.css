@@ -784,7 +784,7 @@ section {
 
 .feature__title {
   margin-top: 26px;
-  font-size: clamp(12px, 2.4vw, 24px);
+  font-size: clamp(20px, 2.4vw, 28px);
   font-weight: 400;
 }
 

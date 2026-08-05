@@ -25,6 +25,7 @@
   --bg-grey: #4D4D4D;
   --bg-light: rgba(117,117,117,.1);
   --bg-white: #FFFFFF;
+  --bg-purple: #E8E8F4;
 
 
   --placeholder: #e9e7e3;
@@ -531,6 +532,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .panel--grey { background: var(--bg-grey); color: var(--white); }
 .panel--light { background: var(--bg-light); color: var(--ink-soft); }
 .panel--white { background: var(--bg-white); color: var(--ink-soft); }
+.panel--purple { background: var(--bg-purple); color: var(--ink-soft); }
 
 /* Images that run edge to edge inside a panel. */
 .bleed { margin-inline: calc(var(--panel-pad) * -1); }

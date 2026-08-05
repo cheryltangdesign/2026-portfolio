@@ -1560,7 +1560,23 @@ section {
 
   .media-row--wide-narrow img { height: auto; object-fit: contain; }
    
-  .figure-row--problem { margin-inline: 0; }
+  .figure-row--problem {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-inline: 0;
+
+    /* Optional */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .figure-row--problem img {
+    flex: 0 0 90%;
+    max-width: 90%;
+    height: auto;
+    scroll-snap-align: start;
+  }
 
   /* Stacked, these cards would otherwise blow up to full width. */
   .figure-row--concepts {

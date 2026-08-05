@@ -525,7 +525,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .project {
   max-width: calc(var(--container-project) + 2 * var(--gutter-wide));
   margin: 0 auto;
-  padding: 0 var(--gutter-wide) 46px;
+  padding: 0 var(--gutter-wide) clamp(20px, 4vw, 40px);
 }
 
 .panel { padding: 40px var(--panel-pad); color: var(--ink-soft); }

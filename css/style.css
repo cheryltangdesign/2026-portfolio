@@ -48,7 +48,7 @@
   --panel-pad: 40px;          /* inner padding of project panels */
 
    /* Hero title */
-  --hero-title-size: clamp(20px, 4.2vw, 56px);
+  --hero-title-size: clamp(16px, 4.2vw, 56px);
   --hero-subtitle-size: clamp(10px, 2.3vw, 30px);
    }
    
@@ -784,7 +784,7 @@ section {
 
 .feature__title {
   margin-top: 26px;
-  font-size: 24px;
+  font-size: clamp(12px, 2.4vw, 24px);
   font-weight: 400;
 }
 

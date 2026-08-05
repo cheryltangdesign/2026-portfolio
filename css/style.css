@@ -24,6 +24,7 @@
   --bg-dark: #161221;
   --bg-grey: #4D4D4D;
   --bg-light: rgba(117,117,117,.1);
+  --bg-lightt: rgba(117,117,117,.04);
   --bg-white: #FFFFFF;
   --bg-purple: #E8E8F4;
 
@@ -531,6 +532,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .panel--dark { background: var(--bg-dark); color: var(--white); }
 .panel--grey { background: var(--bg-grey); color: var(--white); }
 .panel--light { background: var(--bg-light); color: var(--ink-soft); }
+.panel--lightt { background: var(--bg-lightt); color: var(--ink-soft); }
 .panel--white { background: var(--bg-white); color: var(--ink-soft); }
 .panel--purple { background: var(--bg-purple); color: var(--ink-soft); }
 

@@ -1563,7 +1563,6 @@ section {
   .figure-row--problem {
     display: flex;
     overflow-x: auto;
-    gap: 20px;
     margin-inline: 0;
 
     scroll-snap-type: x mandatory;

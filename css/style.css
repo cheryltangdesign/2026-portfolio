@@ -799,7 +799,11 @@ section {
 
 .panel--light .section-head__title { color: var(--dark); }
 
-.context-stack { display: grid; gap: 19px; margin-top: 40px; }
+.context-stack {
+   display: grid;
+   gap: clamp(10px, 2vw, 20px);
+   margin-top: 40px;
+}
 
 /* =========================================================
    Nokia Micro Earbuds Pro

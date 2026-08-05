@@ -1566,14 +1566,19 @@ section {
     gap: 20px;
     margin-inline: 0;
 
-    /* Optional */
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+   
+    /* Hide scrollbar */
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE/Edge */
   }
 
+   .figure-row--problem::-webkit-scrollbar {display: none; /* Chrome, Safari */ }
+
   .figure-row--problem img {
-    flex: 0 0 90%;
-    max-width: 90%;
+    flex: 0 0 85%;
+    max-width: 85%;
     height: auto;
     scroll-snap-align: start;
   }

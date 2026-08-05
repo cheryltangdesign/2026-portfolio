@@ -1560,7 +1560,7 @@ section {
 
   .media-row--wide-narrow img { height: auto; object-fit: contain; }
 
-  .figure-row--problem
+  .figure-row--problem,
   .figure-row--concepts {
     display: flex;
     overflow-x: auto;
@@ -1576,7 +1576,7 @@ section {
 
   .figure-row--problem::-webkit-scrollbar {display: none; /* Chrome, Safari */ }
 
-  .figure-row--problem img 
+  .figure-row--problem img, 
   .figure-row--concepts img {
     flex: 0 0 85%;
     max-width: 85%;

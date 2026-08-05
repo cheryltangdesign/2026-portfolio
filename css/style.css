@@ -1559,8 +1559,9 @@ section {
   .media-row--wide-narrow .ph { aspect-ratio: auto; }
 
   .media-row--wide-narrow img { height: auto; object-fit: contain; }
-   
-  .figure-row--problem {
+
+  .figure-row--problem
+  .figure-row--concepts {
     display: flex;
     overflow-x: auto;
     margin-inline: 0;
@@ -1573,22 +1574,15 @@ section {
     -ms-overflow-style: none;   /* IE/Edge */
   }
 
-   .figure-row--problem::-webkit-scrollbar {display: none; /* Chrome, Safari */ }
+  .figure-row--problem::-webkit-scrollbar {display: none; /* Chrome, Safari */ }
 
-  .figure-row--problem img {
+  .figure-row--problem img 
+  .figure-row--concepts img {
     flex: 0 0 85%;
     max-width: 85%;
     height: auto;
     scroll-snap-align: start;
   }
-
-  /* Stacked, these cards would otherwise blow up to full width. */
-  .figure-row--concepts {
-    gap: 30px;
-    justify-items: center;
-  }
-
-  .figure-row--concepts img { max-width: 420px; }
 
   .project-hero,
   .project-hero--nokia,
